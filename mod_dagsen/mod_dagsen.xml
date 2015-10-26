@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Dagsen</name>
+    <author>Axel Latvala / Teknologföreningen</author>
+    <creationDate>October 2015</creationDate>
+    <copyright>Copyright (C) 2015 Teknologföreningen. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>webmaster@teknolog.fi</authorEmail>
+    <authorUrl>teknolog.fi</authorUrl>
+    <version>1.0.0</version>
+    <description>An interface to TaffaAPI</description>
+    <scriptfile>script.php</scriptfile>
+    <files>
+        <filename>mod_dagsen.xml</filename>
+        <filename module="mod_dagsen">mod_dagsen.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>api</folder>
+        <filename>api/TaffaAPI.class.php</filename>
+        <filename>api/index.html</filename>
+    </files>
+    <config>
+    </config>
+</extension>
